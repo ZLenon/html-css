@@ -7,6 +7,7 @@
   <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/" target="_blank">
     <img 
     src="https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo.png" 
+    target="blank"
     alt="curso em video"
     height="90"
     width="190"
@@ -14,13 +15,31 @@
   </a>
 
   ### Modulo 1 
-  - exercicios
+  - Parágrafos e Quebras
+  - Símbolos e Emoji
+  - Tag Img
+  - Favicon
+  - Hierarquia de Títulos
+  - Semantica HTML
+  - Negrito Italico
+  - Formatação
+  - Citações
+  - Listas
+  - Links
 
-
- 
+  ### Modulo 2
+  - Cores
+  - Degrade CSS
+  - Fontes
+  - ShortHand Font
+  - ID em CSS
+  - Class em CSS
+  - Caixas
+  - Sombras em caixas
+  - Bordas em caixas
 
   <hr />
-  <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank">
+  <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="blank">
     <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="youtube">
   </a>
 
