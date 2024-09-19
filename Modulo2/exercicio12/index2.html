@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercicio12</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      div {
+        display: inline-block;
+        background-color: silver;
+        border: 2px solid black;
+        height: 200px;
+        width: 200px;
+      }
+
+      div > p {
+        display: none;
+      }
+
+      div:hover > p {
+        display: block;
+        color: white;
+      }
+
+      div:hover {
+        background-color: black;
+        text-align: center;
+      }
+
+      div#otto-shadow-dom-id {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de Houver</h1>
+    <p>Passe o mouse no quadrado a baixo</p>
+    <div>
+      <p>Mensagem escondida</p>
+    </div>
+  </body>
+</html>
