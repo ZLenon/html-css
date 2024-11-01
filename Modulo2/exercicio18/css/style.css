@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root {
+   --cor-principal:  #c6ebd6;
+}
+
+body {
+  background-color: var(--cor-principal);
+}
+header {
+  background-color: silver;
+}
+
+footer {
+  background-color: silver;
+}
