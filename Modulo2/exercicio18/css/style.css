@@ -1,16 +1,60 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+  font-family: "Android";
+  src: url('../fontes/idroid.otf') format("opentype");
+}
+
 :root {
-   --cor-principal:  #c6ebd6;
+   --cor-principal:  #c5ebd6;
+   --cor-01: #83e1ad;
+   --cor-02: #3ddc84;
+   --cor-03: #2fa866;
+   --cor-04: #1a5c37;
+   --cor-05: #063d1e;
+
+   --fonte-padrao: Arial, Helvetica, sans-serif;
+   --font-destaque: "Bebas Neue", sans-serif;
+   --fonte-android: 'Android', cursive;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   background-color: var(--cor-principal);
+  font-family: var(--fonte-padrao);
 }
+
 header {
-  background-color: silver;
+  background-color: var(--cor-04);
+}
+header > h1 {
+  color: white;
+  font-family: var(--font-destaque);
+}
+header > p {
+  color: white;
+}
+nav {
+  background-color: var(--cor-05);
+}
+
+main {
+  background-color: white;
+}
+main h1 {
+  font-family: var(--cor-05);
+  font-family: var(--fonte-android);
+}
+main h2 {
+  font-family: var(--fonte-android);
 }
 
 footer {
-  background-color: silver;
+  background-color: var(--cor-05);
+  color: white;
 }
