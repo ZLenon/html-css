@@ -41,6 +41,7 @@ header {
 header > h1 {
   color: white;
   font-family: var(--font-destaque);
+  font-weight: normal;
   font-size: 3em;
   text-shadow: 2px 2px 0px black;
 
@@ -51,11 +52,20 @@ header > p {
   font-size: 1.2em;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 5px;
 }
 
 picture{
   display: flex;
   justify-content: center;
+}
+picture iframe {
+  width: 100%;
+}
+.video {
+  background-color: var(--cor-05);
+  margin: 15px;
+  padding: 10px;
 }
 img {
   width: 99%;
@@ -99,10 +109,13 @@ main h1 {
   font-family: var(--cor-05);
   font-family: var(--fonte-android);
   margin-left: 10px;
+  font-weight: normal;
+  font-size: 1.8rem;
 }
 main h2 {
   font-family: var(--fonte-android);
   color: var(--cor-04);
+  font-weight: normal;
   background-image: linear-gradient(to right, var(--cor-01), transparent);
   margin-left: 10px;
   text-indent: 5px;
