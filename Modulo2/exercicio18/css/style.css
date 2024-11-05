@@ -29,6 +29,9 @@ body {
   background-color: var(--cor-principal);
   font-family: var(--fonte-padrao);
 }
+a.externo::after {
+  content: '\00A0\1F517';
+}
 
 header {
   background-image: linear-gradient(to bottom, var(--cor-02), var(--cor-04));
@@ -129,7 +132,40 @@ main a:hover {
   background-color: var(--cor-01);
 
 }
+
+aside {
+  background-color: var(--cor-01);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 3px 3px 8px black;
+}
+aside ul {
+  list-style-type: "\2714\00A0\00A0";
+  list-style-position: inside;
+  columns: 2;
+}
+aside h3 {
+  background-color: var(--cor-04);
+  color: white;
+  padding: 10px;
+  margin: -10px -10px 0px -10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
 footer {
   background-color: var(--cor-05);
   color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 10px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+footer a:hover {
+  text-decoration: underline;
+  background-color: var(--cor-04);
 }
