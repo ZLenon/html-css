@@ -38,6 +38,10 @@
   - Sombras em caixas
   - Bordas em caixas
 
+  ### Modulo 3
+  - Git GitHub
+  - Manipulação de Imagens
+
   <hr />
   <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="blank">
     <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="youtube">
