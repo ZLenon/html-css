@@ -13,6 +13,10 @@
     width="190"
     >
   </a>
+  
+  ### Projetos Principais
+  - <a href="https://zlenon.github.io/html-css/Modulo2/exercicio18/index.html" target="_blank">História do Mascote do Android</a>
+  - <a href="https://zlenon.github.io/html-css/Modulo3/exercicio7/index.html" target="_blank">Cordel Encantado Milton Duarte</a>
 
   ### Modulo 1 
   - Parágrafos e Quebras
